@@ -18,7 +18,7 @@ function storage(){
 
 
 
-function outputbrowser{
+function outputbrowser(){
 	header("Content-type: text/csv");
     header("Cache-Control: no-store, no-cache");
     header('Content-Disposition: attachment; filename="filename.csv"');
